@@ -1,0 +1,33 @@
+.sidebarC { 
+    background-color:#505050; 
+    color: white;
+    position:relative;
+    
+    header { 
+        position:relative;
+        background-color: #690800;
+        height:110px; 
+        font-size:1.25rem;
+        margin:0 -15px;
+
+        p { 
+            display:inline;
+            padding-left:10px;
+        }
+
+    }
+}
+
+.imgText {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left:12%;
+}
+
+.profileImg {
+    border: 3px solid white;
+}
+
+
+
