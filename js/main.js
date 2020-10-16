@@ -24,9 +24,9 @@ fetch('./data/classData.json')
 
             courseName.innerHTML = data.coursename + "-" +'<span class="text-primary">' + data.coursecode +"</span>";
             profname.innerHTML = "Professor - "+data.profname;
-            time.innerHTML = "<li>" + data.classtime[0] + "</li>" + "<li>" + data.classtime[1] + "</li>"
+            time.innerHTML = "<li>" + "&#128338" + data.classtime[0] + "</li>"  + "<li>" + "&#128338" + data.classtime[1] + "</li>"
 
-
+            // added clock emoji that is different from the reference
 
     }
 
